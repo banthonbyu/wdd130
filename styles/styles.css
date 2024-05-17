@@ -5,15 +5,17 @@
 }
 
 nav {
-    background-color: #4682b4;
-    padding: 10px;
+    background-color: steelblue;
+    padding: 10px
 }
 
 nav a {
-    color: #ffffff;
+    color: white;
     padding: 10px;
     display: block;
-}
+    }
+
+
 
 h1 {
     color: steelblue;
@@ -29,7 +31,7 @@ main img {
 }
 
 p { 
-    padding:0;
+    padding: 0;
 }
 
 main {
@@ -45,10 +47,11 @@ aside img {
     width: 200px;
     height: auto;
 }
+
 aside h2 {
-    position: absolute;
-    top: 47px;
-    left: 150px;
+    position: relative;
+    top: 35px;
+    left: 3px;
 }
 
 footer {
