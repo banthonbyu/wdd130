@@ -97,6 +97,10 @@
         top: 10px;
     }
 
+    .sociallinks img {
+        text-decoration: none;
+    }
+
         
     
 
@@ -106,13 +110,5 @@
         scroll-behavior: auto !important;
     }
 
-
-
-
-    a:-webkit-any-link {
-        color:-webkit-link;
-        cursor: pointer
-        text-decoration: none;
-    }
 
 
