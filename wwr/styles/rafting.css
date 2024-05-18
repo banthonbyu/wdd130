@@ -1,6 +1,4 @@
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-</style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Patua+One&display=swap');
 
 :root {
     --primary-color: #28606F;
@@ -16,3 +14,59 @@
     --nav-hover-link-color: #688F9A;
     --nav-hover-background-color: #E1E9EB;
     }
+
+    body {
+        width: 980px;
+        padding: 20px;
+    }
+
+    h1, h2, h3, h4, h5,h6 {
+        color: var(--primary-color);
+    }
+
+    header {
+        padding: 20px;
+        background-color: var(--accent1-color);
+    }
+
+    p {
+        padding: 25px;
+        color: var(--secondary-color)
+    }
+
+    nav {
+        background-color: var(--nav-background-color);
+        font-size: 1.2rem;
+        display: flex;
+    }
+
+    nav a {
+        display: block;
+        color: var(--nav-link-color);
+        text-decoration: none;
+        padding: 1rem;
+    }
+
+    nav a:link, nav a:visited {
+        color: var(--nav-link-color);
+    }
+
+    nav a:hover {
+        color: var(--nav-hover-link-color);
+        background-color: var(--nav-hover-background-color);
+    }
+
+    .hero {
+        position: relative;
+    }
+
+    .hero img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    
+
+
+
