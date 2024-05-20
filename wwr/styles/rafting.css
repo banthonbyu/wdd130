@@ -70,22 +70,43 @@
     .hero {
         position: relative;
     }
-
     .hero img {
         display: block;
         width: 100%;
-        padding: 15px;
-        text-align: left;
-        bottom: 5px;
+        height: auto;
+    }
+
+    .hero h1 {
+        position: absolute;
+        text-align: center;
+        bottom: 79%;
+        width: 100%;
+        font-family: var(--heading-font);
+        font-size: 65px;
+        color: var(--nav-hover-background-color);
+        background-color:  rgb(40, 96, 111, 0.85);
+    }
+
+    .hero p {
+        background-color: rgb(40, 96, 111, 0.85);;
+        padding-top: 24px;
+        color: #E1E9EB;
+    }
+
+    .hero article {
+        position: absolute;
+        padding: 45px;
+        text-align: center;
+        bottom: 1px;
     }
 
     .hero article img {
         display: block;
         width: 250px;
         float: right;
-        margin: 18px;
+        top: 10px;
     }
-
+    
     .history {
         display: grid;
         justify-items: center;
