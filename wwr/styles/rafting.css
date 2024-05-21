@@ -106,7 +106,6 @@
         bottom: 1px;
         display: grid;
         justify-items: center;
-        grid-row-tempate: 1fr 1fr;
         grid-row: 1;
         }
 
@@ -164,17 +163,16 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+    }
 
     footer p {
         flex: 1;
         justify-content: center;
     }
 
-    }
-
     .sociallinks img {
         text-decoration: none;
-        flex: ;
+        
     }
 
         
