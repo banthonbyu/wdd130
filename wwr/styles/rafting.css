@@ -90,7 +90,13 @@
     .hero p {
         background-color: rgb(40, 96, 111, 0.85);;
         padding-top: 24px;
+        padding-left: 20px;
+        text-align: left;
         color: #E1E9EB;
+        grid-column: 1/2;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row: 1;
     }
 
     .hero article {
@@ -98,13 +104,22 @@
         padding: 45px;
         text-align: center;
         bottom: 1px;
-    }
+        display: grid;
+        justify-items: center;
+        grid-row-tempate: 1fr 1fr;
+        grid-row: 1;
+        }
 
     .hero article img {
         display: block;
         width: 250px;
+        height: auto;
         float: right;
         top: 10px;
+        grid-column: 2/3;
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row: 1;
     }
     
     .history {
@@ -119,7 +134,6 @@
         height: auto;
         border: 4.5px solid;
         border-color: #688F9A;
-
     }
 
     h2 {
@@ -133,6 +147,12 @@
         grid-row: 1;
             grid-row-start: 1;
             grid-row-end: auto;
+    }
+
+    .history p {
+        text-align: left;
+        align-content: center;
+
     }
 
     
@@ -154,13 +174,10 @@
 
     .sociallinks img {
         text-decoration: none;
+        flex: ;
     }
 
         
-    
-
-
-
     *, html {
         scroll-behavior: auto !important;
     }
