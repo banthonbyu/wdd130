@@ -161,18 +161,21 @@
         text-decoration: none;
         background-color: #28606F;
         flex-direction: row;
-        justify-content: space-between;
         align-items: center;
+        justify-content: space-around;
+        padding-left: 4rem;
     }
 
     footer p {
         flex: 1;
         justify-content: center;
+        padding: 4px;
+    
     }
 
     .sociallinks img {
         text-decoration: none;
-        
+        flex: 2;
     }
 
         
