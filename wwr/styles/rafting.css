@@ -202,29 +202,35 @@
         margin-bottom: 15px;
     }
 
-    
-
     footer {
-        display: flex;
+        display: grid;
         text-decoration: none;
         background-color: #28606F;
-        flex-direction: row;
-        align-items: center;
+        grid-template-columns: 1fr;
+        text-align: center;
         justify-content: space-around;
-        padding-left: 4rem;
+        padding-left: 0.1rem;
+    }
+
+    footer nav {
+        display: flex;
+        justify-content: center;
+        gap: .50rem;
     }
 
     footer p {
-        flex: 1;
-        justify-content: center;
-        padding: 4px;
-    
+        align-items: center;
+        padding-left: 1rem;
+        display: flex;
     }
 
-    .sociallinks img {
-        text-decoration: none;
-        flex: 2;
+    footer nav img {
+        width: auto;
+        height: 60px;
     }
+
+
+   
 
         
     *, html {
