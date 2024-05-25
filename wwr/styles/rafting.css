@@ -151,7 +151,27 @@
     .history p {
         text-align: left;
         align-content: center;
+}
 
+    .images h2 {
+        text-align: center;
+    }
+
+    .images section {
+        width: 100%;
+        height: auto;
+    }
+
+    .images section {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+}
+
+    .image-container {
+        display: flex;
+        flex-direction: row;
+        gap: 0.1rem;
     }
 
     figure {
@@ -164,7 +184,12 @@
     }
 
     .image-container-figure {
-
+        display: flex;
+        flex-flow: column;
+        padding: 10px;
+        max-width: 100%;
+        margin: auto;
+        border: solid #28606F;
     }
 
     
