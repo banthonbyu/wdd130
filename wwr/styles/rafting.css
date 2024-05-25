@@ -131,7 +131,8 @@
     .history img {
         width: 400px;
         height: auto;
-        border: 4.5px solid;
+        border: 4px solid;
+        padding: 2px;
         border-color: #688F9A;
     }
 
@@ -183,13 +184,22 @@
         unicode-bidi: isolate;
     }
 
-    .image-container-figure {
+    figcaption {
+        background-color: #ffffff;
+        color: var(--paragraph-font);
+        padding: 1px;
+        text-align: center;
+      }
+
+    .image-container figure {
         display: flex;
         flex-flow: column;
-        padding: 10px;
-        max-width: 100%;
+        padding: 2px;
+        width: 150px;
+        height: auto;
         margin: auto;
-        border: solid #28606F;
+        border: #688F9A 4px solid;
+        margin-bottom: 15px;
     }
 
     
