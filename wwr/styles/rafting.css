@@ -210,7 +210,7 @@
         display: grid;
         text-decoration: none;
         background-color: #28606F;
-        grid-template-columns: 1fr
+        grid-template-columns: 1fr;
         text-align: center;
         justify-content: space-around;
         padding-left: 0.1rem;
