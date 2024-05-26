@@ -211,12 +211,16 @@
         flex-direction: row;
         text-decoration: none;
         background-color: #28606F;
-        justify-content: right;
-    }
+        }
 
     footer p {
         text-align: left;
+        align-self: flex-start;
         }
+
+    a elements {
+        margin-left: 10px;
+    }
     
 
 
