@@ -207,31 +207,15 @@
     }
 
     footer {
-        display: grid;
+        display: flex;
         text-decoration: none;
         background-color: #28606F;
-        grid-template-columns: 1fr;
-        text-align: center;
-        justify-content: space-around;
-        padding-left: 0.1rem;
-    }
-
-    footer nav {
-        display: flex;
-        justify-content: center;
-        gap: .50rem;
+        justify-content: right;
     }
 
     footer p {
-        align-items: center;
-        padding-left: 1rem;
-        display: flex;
-    }
-
-    footer nav img {
-        width: auto;
-        height: 60px;
-    }
+        text-align: center;
+        }
     
 
 
