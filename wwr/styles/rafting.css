@@ -226,8 +226,7 @@
 
    
 
-        
-    *, html {
+        *, html {
         scroll-behavior: auto !important;
     }
 
