@@ -208,13 +208,14 @@
 
     footer {
         display: flex;
+        flex-direction: row;
         text-decoration: none;
         background-color: #28606F;
         justify-content: right;
     }
 
     footer p {
-        text-align: center;
+        text-align: left;
         }
     
 
