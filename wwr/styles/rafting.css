@@ -58,6 +58,10 @@
         padding: 10px 52px;
     }
 
+    a {
+        text-decoration: none;
+    }
+
     nav a:link, nav a:visited {
         color: var(--nav-link-color) 
     }
@@ -138,6 +142,7 @@
 
     h2 {
         font-size: 38px;
+        text-align: center;
     }
 
     .history h2 {
@@ -212,11 +217,13 @@
         text-decoration: none;
         background-color: #28606F;
         justify-content: space-between;
+        padding: 20px;
         }
 
     footer a {
         margin-left: 10px;
         justify-content: right;
+    
     }
 
     
