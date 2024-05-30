@@ -231,17 +231,39 @@
         background-color: #f4f4f4;
         border: 2.5px solid;
         border-radius: 1rem;
-        padding: 15px;
-        gap: 30px;
+        padding: 10px;
+        
     }
 
     .contact-info  {
-        text-align: justify;
+        margin-left: 60px;
     }
 
     .contact-info h2 {
-        
+        text-align: left;
+        margin-top: 0px;
+        }
+
+    .form {
+        display: grid;
+        width: 500px;
     }
+
+    .form-item {
+        display: grid;
+        align-items: center;
+    }
+
+    .form-area h2 {
+        text-align: left;
+        margin-top: 0px;
+        margin-left: 5px;
+    }
+
+    .form-area p {
+        margin-left: 5px;
+    }
+
     
     
 
