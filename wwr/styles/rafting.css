@@ -225,6 +225,17 @@
         justify-content: right;
     }
 
+    .contact {
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        background-color: #f4f4f4;
+        border: 2.5px solid;
+        border-radius: 1rem;
+        padding: 15px;
+        
+
+    }
+
     
     
 
