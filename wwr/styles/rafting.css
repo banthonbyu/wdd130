@@ -220,9 +220,11 @@
         padding: 20px;
         }
 
-    footer a {
+    footer p {
         margin-left: 10px;
         justify-content: right;
+        font-size: 25px;
+        
     }
 
     .contact {
@@ -231,12 +233,12 @@
         background-color: #f4f4f4;
         border: 2.5px solid;
         border-radius: 1rem;
-        padding: 10px;
+        padding: 30px;
         
     }
 
     .contact-info  {
-        margin-left: 60px;
+        margin-left: 120px;
     }
 
     .contact-info h2 {
@@ -267,6 +269,7 @@
     .team-container {
         display: flex;
         flex-direction: row;
+       
     }
 
     .team-container figure {
@@ -275,7 +278,12 @@
         height: auto;
         margin: auto;
         margin-bottom: 15px;
-        border: #688F9A 4px solid;
+        
+        
+    }
+
+    .team img {
+        border-radius: 1000px;
     }
 
     
