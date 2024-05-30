@@ -232,10 +232,16 @@
         border: 2.5px solid;
         border-radius: 1rem;
         padding: 15px;
-        
-
+        gap: 30px;
     }
 
+    .contact-info  {
+        text-align: justify;
+    }
+
+    .contact-info h2 {
+        
+    }
     
     
 
