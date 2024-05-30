@@ -252,11 +252,12 @@
 
     .contact {
         display: grid;
-        grid-template-columns: 1fr 1fr; 
-        background-color: #f4f4f4;
-        border: 2.5px solid;
-        border-radius: 1rem;
-        padding: 30px;
+        grid-template-columns: 1fr 1fr; /* Split Box Into Left and Right Sides */
+        background-color: #f4f4f4; /* Form Background Color */
+        border: 2.5px solid; /* Form Box Border Line Outline */
+        border-radius: 1rem; /* Rounding Corners on Form Box */
+        padding: 30px; /* Space Around Form Content and Box */
+        margin-top: 20px; /* Spacing Between Header and Contact Form */
         
     }
 
