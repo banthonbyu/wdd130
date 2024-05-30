@@ -264,6 +264,20 @@
         margin-left: 5px;
     }
 
+    .team-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .team-container figure {
+        display: flex;
+        flex-flow: column;
+        height: auto;
+        margin: auto;
+        margin-bottom: 15px;
+        border: #688F9A 4px solid;
+    }
+
     
     
 
