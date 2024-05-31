@@ -315,6 +315,20 @@
         border-radius: 20px;
         cursor: pointer;
       }
+
+    .button-link {
+        display: block;
+        font-size: 36px; /* Button Font Size */
+        padding: 10px 20px; /* Area Between Font and Box Edge */
+        background-color: #28606F; /* Button Color */
+        color: #EEE499; /* Button Font Color */
+        text-align: center;
+        text-decoration: none;
+        border-radius: 20px; /* Button Rounded Edges */
+    }
+    .button-link:hover {
+        background-color: #688F9A; /* Button Hover Color */
+    }
     
     main {
         padding: 20px;
