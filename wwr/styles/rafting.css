@@ -204,7 +204,7 @@
       
       
     footer {
-        background-color: #28606F; /* My primary color background color */
+        background-color: #688F9A; /* My primary color background color */
         color: #E1E9EB; /* White text color */
         padding: 20px; /* Padding around the footer */
     }
@@ -307,11 +307,12 @@
 
 
 
-    .book button {
+    button {
         display: block;
         margin: 20px auto; /* Centers the button */
         padding: 10px 20px; /* Area Between Font and Box Edge */
         font-size: 36px; /* Button Font Size */
+        border-radius: 20px;
         cursor: pointer;
       }
     
