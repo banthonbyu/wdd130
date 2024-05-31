@@ -161,11 +161,7 @@
         padding-right: 20px;
     }
 
-    .images h2 {
-        text-align: center;
-    }
-
-    .images section {
+   .images section {
         display: grid;
         grid-template-columns: 1fr;
         gap: 1rem;
@@ -213,31 +209,36 @@
         padding: 20px; /* Padding around the footer */
     }
       
-      .footer-content {
+    .footer-content {
         display: flex;
         justify-content: space-between; /* Space between the text and icons */
         align-items: center; /* Center items vertically */
     }
       
-      .footer-content p {
+    .footer-content p {
         font-size: 20px; /* Paragraph and Copyright Font Size */
     }
       
-      .footer-content a {
+    .footer-content a {
         color: #EEE499; /* Wireframe Link color */
         text-decoration: none; /* Remove underline from links */
     }
       
-      .social-media-icons a {
+    .social-media-icons a {
         margin-left: 15px; /* Spacing between icons */
     }
       
-      .social-media-icons img {
+    .social-media-icons img {
         width: 35px; /* Icon width */
         height: 35px; /* Icon height */
     }
+
+    .contact h1 {
+        position: absolute;
+        text-align: center;
+    }
       
-      .contact {
+    .contact {
         display: grid;
         grid-template-columns: 1fr 1fr; /* Split Box Into Left and Right Sides */
         background-color: #f4f4f4; /* Form Background Color */
@@ -245,6 +246,10 @@
         border-radius: 1rem; /* Rounding Corners on Form Box */
         padding: 30px; /* Space Around Form Content and Box */
         margin-top: 20px; /* Spacing Between Header and Contact Form */
+    }
+
+    .contact-us-h1 {
+        text-align: center;
     }
 
     .contact-info  {
