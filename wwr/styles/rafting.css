@@ -307,7 +307,13 @@
 
 
 
-   
+    .book button {
+        display: block;
+        margin: 20px auto; /* Centers the button */
+        padding: 10px 20px; /* Area Between Font and Box Edge */
+        font-size: 36px; /* Button Font Size */
+        cursor: pointer;
+      }
     
     main {
         padding: 20px;
@@ -331,16 +337,13 @@
         max-width: 100%;
         height: auto;
         border-radius: 5px;
-        flex: 1 1 300px; /* Ensures the image takes up at least 300px */
+        flex: 1 1 300px; /* Makes sure the image takes up at least 300px */
     }
     
     .text-content {
-        flex: 2 1 500px; /* Ensures the text content takes up more space */
+        flex: 2 1 500px; /* Makes sure the text content takes up more space */
     }
     
-    h2 {
-        color: #333;
-    }
     
     .info-sections {
         display: flex;
