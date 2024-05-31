@@ -243,14 +243,7 @@
         
       }
       
-      
-      
-      
-      
-
-
-
-    .contact {
+      .contact {
         display: grid;
         grid-template-columns: 1fr 1fr; /* Split Box Into Left and Right Sides */
         background-color: #f4f4f4; /* Form Background Color */
@@ -258,11 +251,10 @@
         border-radius: 1rem; /* Rounding Corners on Form Box */
         padding: 30px; /* Space Around Form Content and Box */
         margin-top: 20px; /* Spacing Between Header and Contact Form */
-        
     }
 
     .contact-info  {
-        margin-left: 120px;
+        margin-left: 105px;
     }
 
     .contact-info h2 {
@@ -302,26 +294,13 @@
         height: auto;
         margin: auto;
         margin-bottom: 15px;
-        
-        
     }
 
     .team img {
         border-radius: 1000px;
     }
 
-    
-    
-
-    
-
-    
-    
-
-
-   
-
-        *, html {
+    *, html {
         scroll-behavior: auto !important;
     }
 
