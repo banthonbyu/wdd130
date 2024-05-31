@@ -307,11 +307,11 @@
 
 
 
-    button {
+    .contact button {
         display: block;
         margin: 20px auto; /* Centers the button */
         padding: 10px 20px; /* Area Between Font and Box Edge */
-        font-size: 36px; /* Button Font Size */
+        font-size: 20px; /* Button Font Size */
         border-radius: 20px;
         cursor: pointer;
       }
