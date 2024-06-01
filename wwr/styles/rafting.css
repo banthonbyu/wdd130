@@ -69,6 +69,8 @@
         background-color: var(--nav-hover-background-color);
     }
 
+    /* About Page CSS */
+
     .hero {
         position: relative;
     }
@@ -81,7 +83,7 @@
     .hero h1 {
         position: absolute;
         text-align: center;
-        bottom: 79%;
+        bottom: 65%;
         width: 100%;
         font-family: var(--heading-font);
         font-size: 65px;
@@ -202,7 +204,8 @@
         margin-bottom: 15px;
     }
       
-      
+    /* Footer CSS */
+    
     footer {
         background-color: #28606F; /* My primary color background color */
         color: #E1E9EB; /* White text color */
@@ -238,6 +241,8 @@
         font-size: 65px;
     }
 
+    /* Contact Page CSS */
+    
     .contact {
         display: grid;
         grid-template-columns: 1fr 1fr; /* Split Box Into Left and Right Sides */
@@ -287,7 +292,6 @@
     .team-container {
         display: flex;
         flex-direction: row;
-       
     }
 
     .team-container figure {
@@ -306,9 +310,7 @@
         scroll-behavior: auto !important;
     }
 
-
-
-
+    /* Trips Page CSS */
 
     .contact button {
         display: block;
@@ -333,11 +335,7 @@
         background-color: #688F9A; /* Button Hover Color */
     }
     
-    main {
-        padding: 20px;
-    }
-    
-    .expedition {
+   .expedition {
         background: #fff;
         margin-bottom: 20px;
         padding: 20px;
@@ -390,3 +388,78 @@
         padding: 10px;
         border-radius: 5px;
     }
+
+    /* Home Page CSS */
+    
+    .newsletter {
+        background-color: #28606F;
+        color: #E1E9EB;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .newsletter h2 {
+        color: #E1E9EB;
+    }
+    
+    .newsletter form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .newsletter label {
+        margin: 10px 0 5px;
+    }
+    
+    .newsletter input {
+        padding: 10px;
+        margin-bottom: 10px;
+        width: 80%;
+        max-width: 430px;
+    }
+    
+    .newsletter button {
+        padding: 10px 20px;
+        background-color: #E1E9EB;
+        color: #28606F;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    .cta {
+        background-color: #E1E9EB;
+        color: #28606F;
+        padding: 40px 20px;
+        text-align: center;
+    }
+    
+    .cta .cta-button {
+        padding: 10px 20px;
+        background-color: #28606F;
+        color: #E1E9EB;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 20px;
+        display: inline-block;
+    }
+    
+    .info-grid {
+        display: grid; /* 2 Image Boxes in row */
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px; /* Gap between images */
+        padding: 20px 0px; /* Top and Bottom Space, Zero Side Space */
+    }
+    
+    .grid-item {
+        background-color: #E1E9EB;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .grid-item img {
+        max-width: 100%;
+        height: auto;
+    }
+    
