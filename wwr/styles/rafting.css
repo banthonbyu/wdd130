@@ -239,17 +239,18 @@
     .center {
         text-align: center;
         font-size: 65px;
+        font-family: var(--heading-font);
     }
 
     /* Contact Page CSS */
     
     .contact {
         display: grid;
-        grid-template-columns: 1fr 1fr; /* Split Box Into Left and Right Sides */
+        grid-template-columns: 1.06fr 1fr; /* Split Box Into Left and Right Sides */
         background-color: #f4f4f4; /* Form Background Color */
         border: 2.5px solid; /* Form Box Border Line Outline */
         border-radius: 1rem; /* Rounding Corners on Form Box */
-        padding: 30px; /* Space Around Form Content and Box */
+        padding:20px; /* Space Around Form Content and Box */
         margin-top: 20px; /* Spacing Between Header and Contact Form */
     }
 
