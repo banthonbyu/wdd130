@@ -360,7 +360,6 @@
         flex: 2 1 500px; /* Makes sure the text content takes up more space */
     }
     
-    
     .info-sections {
         display: flex;
         flex-wrap: wrap;
